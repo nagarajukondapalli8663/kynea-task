@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.image1{
+    border-radius: 15px;
+    border:5px solid red
+}
+.image2{
+    height:200px;
+    width: 300px;
+    text-align: center;
+   margin-left: 80px;
+    float: left;
+    margin-top: 90px;
+    border-color: red;
+    border:5px solid red;
+    border-radius: 15px;
+
+
+}
+.image3{
+    height:200px;
+    width: 300px;
+    text-align: center;
+    margin-top: 90px;
+    margin-right: 90px;
+    float: right;
+    border-color: red;
+    border:5px solid red;
+    border-radius: 15px;
+    
+    
+}
+.container-fluid{
+    margin: 50px;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align: end;
+}
+.button{
+    margin:10px;
+}
+.input{
+    text-align: center;
+    padding-top: 40px;
+}
+.text{
+    margin: 20px;
+}
+.logo{
+    text-align: center;
+}
+p{
+  font-size: 40px;
+}
+
+
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+}
+.error{
+    font-size: 12px;
+    color: red;
+}
+
+
+
+
+
+

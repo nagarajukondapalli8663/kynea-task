@@ -1,0 +1,27 @@
+
+<div class="container">
+  <p class="logo">Logo</p>
+  <div class="logo-container">
+          <div class="image1">
+            <img [src]="url" height="190px" width="290px"><br>
+            <input type="file" class="text" #nnn (change)="onselectFile($event)"><br><br>
+          </div>
+  </div> 
+
+  <div>     
+      <div class="input">
+        <h2>Enter Time </h2>
+        <p *ngIf="showFileError" class="error">Please upload a file </p>
+        <p *ngIf="showError" class="error">Please enter number of seconds you want wait </p>
+        <input type="text" placeholder="enter time in seconds" [(ngModel)]="timer" ><br>
+        <button class="button" calss="btn btn-success" (click)="onclick(nnn)">Analized</button>
+        <button class="button" calss="btn btn-success" (click)="resetPage()">Reset</button>
+      </div>
+    
+      <div class="image2"><img [src]="originalImage" height="190px" width="290px"><br>
+          <p>Original Image</p></div>
+      <div class="image3"><img [src]="picture" height="190px" width="290px">
+          <p>Analized Image</p></div>
+    </div>
+
+  </div>
